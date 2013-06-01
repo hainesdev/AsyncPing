@@ -1,6 +1,6 @@
-#AsyncPing Arduino Library
+#AsyncPing Library
 
-This library allows your sketches to take ultrasonic distance readings at a fast rate. Your application can
+This library allows your arduino sketches to take ultrasonic distance readings at a fast rate. Your application can
 call the AsyncPing function repeatedly to get distance readings. No timing to worry about. While the arduino
 is waiting for an echo no additional pulses are sent. Time in between pulse and echo can be used for other functions.
 
@@ -8,11 +8,6 @@ This code is based on the NewPing library. I have crafted this code in an attemp
 
 ###Synopsis
 
-#define TRIGGER_PIN  9  // Arduino pin tied to trigger pin on the ultrasonic sensor.
-#define ECHO_PIN     8  // Arduino pin tied to echo pin on the ultrasonic sensor.
-#define MAX_DISTANCE 500 
-
-#include <AsyncPing.h>
 AsyncPing Ping;
 void setup()
 {
